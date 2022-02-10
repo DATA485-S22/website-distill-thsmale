@@ -1,0 +1,36 @@
+[
+  {
+    "path": "posts/2022-02-01-find-the-giraffe/",
+    "title": "Find the Giraffe",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Tommy Smale",
+        "url": {}
+      }
+    ],
+    "date": "2022-02-01",
+    "categories": [],
+    "contents": "\n🐯🐯🦒🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-02-01T18:17:18-08:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-02-01-how-to-be-an-influencer/",
+    "title": "How to be an influencer",
+    "description": "Post dancing tik toks and controversal tweets.",
+    "author": [
+      {
+        "name": "Tommy Smale",
+        "url": {}
+      }
+    ],
+    "date": "2022-02-01",
+    "categories": [],
+    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-02-01T18:17:18-08:00",
+    "input_file": {}
+  }
+]
