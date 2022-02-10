@@ -89,7 +89,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_meta_tags-->
   <title>Find the Giraffe</title>
 
-  <meta property="description" itemprop="description" content="A short description of the post."/>
+  <meta property="description" itemprop="description" content="Refresh the page to play again."/>
 
 
   <!--  https://schema.org/Article -->
@@ -100,19 +100,19 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Find the Giraffe"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="A short description of the post."/>
+  <meta property="og:description" content="Refresh the page to play again."/>
   <meta property="og:locale" content="en_US"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="Find the Giraffe"/>
-  <meta property="twitter:description" content="A short description of the post."/>
+  <meta property="twitter:description" content="Refresh the page to play again."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Find the Giraffe"]},{"type":"character","attributes":{},"value":["A short description of the post.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Tommy Smale"]}]}]},{"type":"character","attributes":{},"value":["2022-02-01"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Find the Giraffe"]},{"type":"character","attributes":{},"value":["Refresh the page to play again.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Tommy Smale"]}]}]},{"type":"character","attributes":{},"value":["2022-02-01"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -1459,7 +1459,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Find the Giraffe","description":"A short description of the post.","authors":[{"author":"Tommy Smale","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-02-01T00:00:00.000-08:00","citationText":"Smale, 2022"}
+{"title":"Find the Giraffe","description":"Refresh the page to play again.","authors":[{"author":"Tommy Smale","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-02-01T00:00:00.000-08:00","citationText":"Smale, 2022"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1472,7 +1472,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h1>Find the Giraffe</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>A short description of the post.</p></p>
+<p><p>Refresh the page to play again.</p></p>
 </div>
 
 <div class="d-byline">
@@ -1482,8 +1482,40 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 
 <div class="d-article">
-<p>🐯🐯🦒🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯🐯</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>fill_vector</span> <span class='op'>&lt;-</span> <span class='kw'>function</span><span class='op'>(</span><span class='va'>item</span>, <span class='va'>size</span><span class='op'>)</span> <span class='op'>{</span> 
+  <span class='va'>size</span> <span class='op'>&lt;-</span> <span class='va'>size</span><span class='op'>*</span><span class='va'>size</span>
+  <span class='va'>tiger</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/seq.html'>seq</a></span><span class='op'>(</span><span class='fl'>1</span>, <span class='va'>size</span><span class='op'>)</span><span class='op'>)</span> 
+  <span class='kw'>for</span><span class='op'>(</span><span class='va'>i</span> <span class='kw'>in</span> <span class='fu'><a href='https://rdrr.io/r/base/seq.html'>seq</a></span><span class='op'>(</span><span class='fl'>1</span>, <span class='va'>size</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>{</span> 
+    <span class='va'>tiger</span><span class='op'>[</span><span class='va'>i</span><span class='op'>]</span> <span class='op'>&lt;-</span> <span class='va'>item</span>
+  <span class='op'>}</span>
+  <span class='va'>tiger</span> 
+<span class='op'>}</span>
+<span class='va'>size</span> <span class='op'>&lt;-</span> <span class='fl'>12</span>
+<span class='va'>tiger</span> <span class='op'>&lt;-</span> <span class='fu'>fill_vector</span><span class='op'>(</span><span class='st'>'🐯'</span>, <span class='va'>size</span><span class='op'>)</span> 
+<span class='va'>tiger</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/matrix.html'>matrix</a></span><span class='op'>(</span><span class='va'>tiger</span>, nrow<span class='op'>=</span><span class='va'>size</span>, ncol<span class='op'>=</span><span class='va'>size</span><span class='op'>)</span>
+<span class='co'>#Pick a random position to have a giraffe </span>
+<span class='va'>giraffe_position</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/sample.html'>sample</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/seq.html'>seq</a></span><span class='op'>(</span><span class='fl'>1</span>,<span class='va'>size</span><span class='op'>*</span><span class='va'>size</span><span class='op'>)</span><span class='op'>)</span><span class='op'>[</span><span class='fl'>1</span><span class='op'>]</span>
+<span class='va'>tiger</span><span class='op'>[</span><span class='va'>giraffe_position</span><span class='op'>]</span> <span class='op'>&lt;-</span> <span class='st'>'🦒'</span>
+<span class='va'>tiger</span>
+</code></pre>
+</div>
+<pre><code>      [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10] [,11] [,12]
+ [1,] &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot;  &quot;🐯&quot;  &quot;🐯&quot; 
+ [2,] &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot;  &quot;🐯&quot;  &quot;🐯&quot; 
+ [3,] &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🦒&quot; &quot;🐯&quot; &quot;🐯&quot;  &quot;🐯&quot;  &quot;🐯&quot; 
+ [4,] &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot;  &quot;🐯&quot;  &quot;🐯&quot; 
+ [5,] &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot;  &quot;🐯&quot;  &quot;🐯&quot; 
+ [6,] &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot;  &quot;🐯&quot;  &quot;🐯&quot; 
+ [7,] &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot;  &quot;🐯&quot;  &quot;🐯&quot; 
+ [8,] &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot;  &quot;🐯&quot;  &quot;🐯&quot; 
+ [9,] &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot;  &quot;🐯&quot;  &quot;🐯&quot; 
+[10,] &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot;  &quot;🐯&quot;  &quot;🐯&quot; 
+[11,] &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot;  &quot;🐯&quot;  &quot;🐯&quot; 
+[12,] &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot; &quot;🐯&quot;  &quot;🐯&quot;  &quot;🐯&quot; </code></pre>
+</div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
