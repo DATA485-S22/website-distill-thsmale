@@ -1,8 +1,7 @@
 ---
 title: "About this site"
 description: |
-  Learning to create blog posts using distill
-   
+  Some additional details about the website
 ---
 
 ```{r setup, include=FALSE}

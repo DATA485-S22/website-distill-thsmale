@@ -3,19 +3,19 @@
     {
       "path": "about.html",
       "title": "About this site",
-      "description": "Learning to create blog posts using distill\n ",
+      "description": "Some additional details about the website",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-02-01T18:17:19-08:00"
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-01-20T17:10:31-08:00"
     },
     {
       "path": "index.html",
-      "title": "Tommy Distill Website",
-      "description": "Welcome to my blog! I am basically an influencer now.\n",
+      "title": "&quot;Test-Distill-Website&quot;",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-02-01T18:17:19-08:00"
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-01-20T17:10:32-08:00"
     }
   ],
-  "collections": ["posts/posts.json"]
+  "collections": []
 }
