@@ -1,0 +1,33 @@
+---
+title: "Checkers"
+description: |
+  A checkers game with a really powerful GUI using OpenGL. Test your skills against your friend or a bot trained using the Alpha Beta Prunning algorithm. 
+author:
+  - name: Tommy Smale
+    url: {}
+date: 2022-03-02
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Checker board 
+![Checker board](board_state.png)
+There is an algorithm which determines what moves are permitted for each checker piece. The user can select any valid piece and move it to any valid square. When a hit is made the opposing piece is eliminated from the game. There is a mode where the user can play against an agent trained using artificial intelligence.  
+
+### How it's made - checker piece 
+![Checker Piece](checker.png)
+To make a checker piece one must draw a lot of triangles in a shape to resemble a circle. By adjusting the sine and cosine of 2/3rds of the coordinates we can closely resemble a circle with enough triangles. It also wouldn't be possible without the help of radians.  
+
+### How it's made - checker board
+![Checker board construction](color_triangles.png)
+Everything in OpenGL is just a triangle. All the 3 coordinates for each triangle must be calculated manually. Along with an red, green, blue, alpha value in the range 0-1 for each corresponding (X, Y) coordinate. Then a buffer is binded to OpenGL and a call to the glDrawArrays() function is made. We specify the vertex shader than the OpenGL engine assembles the triangle shape, rasterizes it, fragments it, and blends it. 
+
+
+
+

@@ -1,20 +1,20 @@
 {
   "articles": [
     {
-      "path": "about.html",
-      "title": "About this site",
-      "description": "Learning to create blog posts using distill\n ",
+      "path": "About.html",
+      "title": "About Me",
+      "description": "A little about me. \n",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-02-10T14:12:25-08:00"
+      "contents": "\nHello there, I am a recent graduate from Chico State with a Bachelors of Science in Computer Science and a certificate in Data Science. John Wooden said “Sucess is peace of mind which is a direct result of self-satisfaction in knowing you made the effort to become the best of which you are capable.” Building on top of the pyramid of success, I will add value to any team with my cooperation, alertness, team spirit, and poise. This means having utmost concern for what’s right rather than who’s right. To constantly be improving myself and the team while putting the team before myself. With an ability to work diligently under pressure and performing at my best every day, I will be a valueable member of your software engineering team.\nPicture of me\n\n\n",
+      "last_modified": "2022-03-02T06:26:57-08:00"
     },
     {
       "path": "index.html",
-      "title": "Tommy Distill Website",
-      "description": "Welcome to my blog! I am basically an influencer now.\n",
+      "title": "Tommy's Website",
+      "description": "Welcome to my portfolio! Click on the links to see demos.\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-02-10T14:12:25-08:00"
+      "last_modified": "2022-03-02T06:21:16-08:00"
     }
   ],
   "collections": ["posts/posts.json"]

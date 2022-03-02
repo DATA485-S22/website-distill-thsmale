@@ -1,7 +1,7 @@
 ---
-title: "Tommy Distill Website"
+title: "Tommy's Website"
 description: |
-  Welcome to my blog! I am basically an influencer now.
+  Welcome to my portfolio! Click on the links to see demos.
 site: distill::distill_website
 listing: posts
 ---
