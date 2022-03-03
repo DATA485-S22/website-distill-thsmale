@@ -1,7 +1,7 @@
 ---
 title: "Checkers"
 description: |
-  A checkers game with a really powerful GUI using OpenGL. Test your skills against your friend or a bot trained using the Alpha Beta Prunning algorithm. 
+  A checkers game with a really powerful GUI using OpenGL. Test your skills against your friend or a bot trained using artificial intelligence and the C++ programming language. 
 author:
   - name: Tommy Smale
     url: {}
